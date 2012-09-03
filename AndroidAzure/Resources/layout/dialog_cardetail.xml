@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:id="@+id/carImageView"
+                android:layout_column="0"
+                android:layout_width="39.3dp"
+                android:layout_height="40.0dp" />
+            <TextView
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/markeLabel"
+                android:layout_column="1" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4">
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/typeLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow23">
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/priceLabel"
+                android:textColor="#ffff0000" />
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/descLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:text="Erstzulassung"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView12" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/ezLabel"
+                android:layout_column="1" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="Kilometerstand:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView13" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/kmLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5">
+            <TextView
+                android:text="Leistung:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView14" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/leistungLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6">
+            <TextView
+                android:text="Treibstoff:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView15" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/treibstoffLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7">
+            <TextView
+                android:text="Farbe:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView31" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/farbeLabel" />
+        </TableRow>
+        <TableRow
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/tableRow11">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow10">
+            <TextView
+                android:text="Kategorie:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView32" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/kategorieLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow9">
+            <TextView
+                android:text="Aufbau:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView33" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/aufbauLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow8">
+            <TextView
+                android:text="Getriebe:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView34" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/getriebeLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/antriebRow">
+            <TextView
+                android:text="Antrieb:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView50" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/antriebLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow16">
+            <TextView
+                android:text="Türen:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView52" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/tuerenLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow15">
+            <TextView
+                android:text="Sitze:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView51" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/sitzeLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow14">
+            <TextView
+                android:text="Hubraum:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView53" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/hubraumLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/gewichtRow">
+            <TextView
+                android:text="Zul.Ges.gewicht:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView54" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/gewichtLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/innenRow">
+            <TextView
+                android:text="Innenausstattung:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView64" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/innenLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/co2Row">
+            <TextView
+                android:text="Emission CO2:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView65" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/co2Label" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/abgasRow">
+            <TextView
+                android:text="Abgasnorm EURO:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView66" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/abgasLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/novaRow">
+            <TextView
+                android:text="NoVa:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView76" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/novaLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/verbrauchRow">
+            <TextView
+                android:text="Durchschn.verb.:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView77" />
+            <TextView
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="1"
+                android:id="@+id/verbrauchLabel" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow24">
+            <TextView
+                android:text="Gewährleistung:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView102" />
+            <CheckBox
+                android:layout_column="1"
+                android:id="@+id/garantieCheckBox" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow21">
+            <TextView
+                android:text="Serviceheft:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_column="0"
+                android:id="@+id/textView78" />
+            <CheckBox
+                android:layout_column="1"
+                android:id="@+id/serviceCheckBox"
+                android:linksClickable="false"
+                android:inputType="none" />
+        </TableRow>
+    </TableLayout>
+    <AbsoluteLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/absoluteLayout1" />
+</LinearLayout>

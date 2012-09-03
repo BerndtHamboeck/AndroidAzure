@@ -1,0 +1,39 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AndroidAzure\Activity1.cs">
+    <Files>
+      <File FileName="AndroidAzure\Activity1.cs" Line="19" Column="34" />
+      <File FileName="c:\Development\Android\Gebrauchtwagen\Android.Dialog\DialogActivity.cs" Line="12" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Android.Dialog" expanded="True" />
+          <Node name="AndroidAzure" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Resources" expanded="True">
+              <Node name="drawable" expanded="True" />
+              <Node name="layout" expanded="True" />
+              <Node name="SupportLib" expanded="True" />
+            </Node>
+            <Node name="Activity1.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="..\..\..\..\Development\Android\Gebrauchtwagen\Gebrauchtwagen\SearchCarActivity.cs" line="501" offsetX="501" offsetY="7803" expression="models.Modell" liveUpdate="False" />
+    <Watch file="..\..\..\..\Development\Android\Gebrauchtwagen\Gebrauchtwagen\SearchCarActivity.cs" line="132" offsetX="549" offsetY="2159" expression="fromTos" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.AndroidAzure AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+</Properties>
